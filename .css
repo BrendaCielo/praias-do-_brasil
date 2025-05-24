@@ -1,0 +1,37 @@
+/*A estrutura do css é composta: pela indentificação do elemento seguido de chaves, e por fim dentro das chaves voce escolhe o atributo que deseja modificar seguido o  parâmetro. Ex.:
+p {font-size:16px;
+ color:red;}
+Sempre eu preciso terminar os comandos com ;*/
+/*medidas Absolutas-ou seja fixas
+  px-pixels
+  cm-centímetros
+  mm-milimetros
+  Medidas Relativas- ou seja que se ajustam
+  rem se ajusta de acordo com o tamanho da fonte html
+  %- relativo ao tamanho do elemento pai/tela
+
+*/
+
+.ferias{
+    /*Alterando  a largura da imagem*/
+    width:50%;
+    /* Alterando a altura da imagem*/
+    height:50;
+
+}
+img{
+     /*Alterando  a largura da imagem*/
+     width:50%;
+     /* Alterando a altura da imagem*/
+     height:50;
+}
+tr,td{
+     /*definindo tipo de espressura  de borda*/
+    border:1px solid;/*solid,dashed,dotted*/
+    /*definindo a cor da borda das linhas e coluna das tabelas*/
+    border-color: black;
+    /*Ajustando largura*/
+    width: 40%;
+    
+   
+}
